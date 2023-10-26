@@ -1,0 +1,26 @@
+Explain the difference between justify-items and justify-self using code examples.
+
+Ans:  
+justify-items aligns all items within a container, while justify-self aligns a specific item within the container.
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-items: center; /* Set the default horizontal alignment for grid items */
+}
+
+.grid-item {
+  /* This grid item will inherit the 'center' alignment from 'justify-items' */
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+}
+
+.grid-item {
+  justify-self: end; /* Set the horizontal alignment for this specific grid item */
+}

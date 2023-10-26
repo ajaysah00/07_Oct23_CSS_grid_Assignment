@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aqua;
+        }
+img{
+height: 100%;
+width: 100%;
+border-radius: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 190px);
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 95%;
+    height: 20%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.item3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.item5{
+    grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 3;
+grid-row-end: 4;
+}
+.item6{
+    grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 4;
+}
+.item img:hover{
+ 
+    cursor: pointer;
+    border: 2px solid rgb(216, 82, 82);
+    opacity:0.9;
+border-radius: 20px;
+   
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">
+            <img src="https://images.unsplash.com/photo-1618588507085-c79565432917?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww" alt="iamge1">
+        </div>
+
+        <div class="item item2">
+            <img src="https://static.vecteezy.com/system/resources/previews/025/284/015/non_2x/close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg" alt="image2">
+        </div>
+
+        <div class="item item3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB5BuJxVu-nQYgyPrE08od_WL0q8qTfHia8g&usqp=CAU" alt="image3">
+        </div>
+        
+        <div class="item item4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnoyoFHmxBmYhNqFMWyeXbBjBIon1VGgkqw&usqp=CAU" alt="imge4">
+        </div>
+        
+        <div class="item item5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5MfTikD5sshtOllyQIs67wsL2b59IBLajFg&usqp=CAU" alt="image5">
+        </div>
+        
+
+        <div class="item item6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRgYsHQ-lzleMza2DplwhClNuAd4w2G4DzLA&usqp=CAU" alt="image6">
+        </div>
+    </div>
+</body>
+</html>
